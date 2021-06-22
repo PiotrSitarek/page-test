@@ -1,0 +1,200 @@
+@media (max-width: 400px) {
+    .netTV__container {
+        width: 99%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 1rem;
+    }
+
+    .netTV__text {
+        text-align: center;
+        margin: .5rem 0 .5rem 0;
+    }
+
+    .netTV__starText {
+        font-size: .7rem;
+    }
+
+    .netTV__contractTimeOption {
+        margin: 2.5rem 0 0 0;
+    }
+
+    .netTV__image {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .netTV__plusImage {
+        width: 1rem;
+        height: 1rem;
+        margin: 0 1rem 0 1rem;
+
+    }
+
+    .netTV__contractTime {
+
+        width: 80%;
+        text-align: center;
+    }
+
+    .netTV__speedOptions {
+        width: 80%;
+
+        display: flex;
+    }
+
+    .netTV__singleOption {
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+
+    .netTV__singleOption--middle {
+        border-left: .0626rem solid black;
+        border-right: .0626rem solid black;
+    }
+
+    .netTV__promotionTime {
+        width: 80%;
+        border-top: .0626rem solid black;
+    }
+
+    .netTV__discount {
+        width: 80%;
+        border-top: .0626rem solid black;
+    }
+
+    .netTV__priceContain {
+        width: 80%;
+        border-top: .0626rem solid black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .netTV__programspackage {
+        width: 80%;
+        border-top: .0626rem solid black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.netTV__tvOptionContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2rem 0 2rem 0;
+}
+
+.netTV__tvOption {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+@media (min-width: 400px) {
+    .netTV__container {
+        width: 99%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 1rem;
+    }
+
+    .netTV__tvOptionContainer {
+        margin: 2rem 0 2rem 0;
+    }
+
+    .netTV__text {
+        text-align: center;
+        margin: .5rem 0 .5rem 0;
+        font-size: 1.1rem;
+    }
+
+    .netTV__text--programslist:hover {
+        cursor: pointer;
+        color: red;
+    }
+
+    .netTV__starText {
+        font-size: .7rem;
+    }
+
+    .netTV__contractTimeOption {
+        font-size: 1.1rem;
+    }
+
+    .netTV__images {}
+
+    .netTV__plusImage {
+        width: 1rem;
+        height: 1rem;
+        margin: 0 1rem 0 1rem;
+    }
+
+    .netTV__image {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .netTV__contractTime {
+
+        width: 80%;
+        text-align: center;
+
+    }
+
+    .netTV__speedOptions {
+        width: 80%;
+        display: flex;
+    }
+
+    .netTV__singleOption {
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+
+    .netTV__singleOption--middle {
+        border-left: .0626rem solid black;
+        border-right: .0626rem solid black;
+    }
+
+    .netTV__promotionTime {
+        width: 80%;
+        border-top: .0626rem solid black;
+    }
+
+    .netTV__discount {
+        width: 80%;
+        border-top: .0626rem solid black;
+    }
+
+    .netTV__priceContain {
+        width: 80%;
+        border-top: .0626rem solid black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .netTV__tvOption {
+        margin-bottom: 1rem;
+        font-size: 1.4rem;
+        font-weight: 600;
+    }
+
+    .netTV__programspackage {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

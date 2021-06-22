@@ -1,0 +1,26 @@
+@import '../scss/settings/reset';
+@import '../scss/settings/colors';
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400&display=swap');
+@import '../scss/settings/fonts/';
+@import '../scss/settings/grid';
+@import '../components/Home/Home/home';
+@import '../components/Home/Header/header';
+@import '../components/Home/Slider/slider';
+@import '../components/Home/Footer/footer';
+@import '../components/Home/AddresCheck/addresscheck';
+@import '../components/Offers/MobileALL/mobileall';
+@import '../components/Contact/contact';
+@import '../components/Offers/Internet/internet';
+@import '../components/Offers/InternetTV/internetTV';
+@import '../components/Offers/InternetTVTelephone/internetTVTelephone';
+@import '../components/Offers/MobileInternet/cellPhoneOffer';
+@import '../components/Offers/ProgramList/programList';
+@import '../components/PageNotFound/pageNotFound.scss';
+@import '../components/Home/NewComponent/newcomponent';
+// @import '../components/Services/services.scss';
+
+
+// * {
+//     outline: red 1px solid;
+
+// }

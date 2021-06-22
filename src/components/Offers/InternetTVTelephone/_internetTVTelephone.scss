@@ -1,0 +1,100 @@
+@media (max-width: 400px) {
+    .telephone__container {
+        display: flex;
+        // height: calc(100vh - 10rem);
+        // min-height: 15rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        // height: calc(100vh - 15rem);
+        // min-height: 22rem;
+        height: auto;
+        width: 100%;
+    }
+
+    .phone__image {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .telephone__offer {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 2rem 0 2rem 0;
+    }
+
+    .telephone__option {
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+
+    .telephone__optionInfo {
+        font-size: 1.1rem;
+        margin-top: 1rem;
+    }
+
+    .telephone__option--middle {
+        margin: .5rem 0 .5rem 0;
+    }
+
+    .internet__starText--telephone {
+        margin-bottom: 1rem;
+    }
+
+
+}
+
+
+
+@media (min-width: 400px) {
+
+    .telephone__container {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        // height: calc(100vh - 17rem);
+    }
+
+    .phone__image {
+        margin: 1rem 0 1rem 0;
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .telephone__offer {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 2rem 0 2rem 0;
+    }
+
+    .telephone__option {
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+
+    .telephone__optionInfo {
+        font-size: 1.1rem;
+        margin-top: 1rem;
+    }
+
+    .telephone__option--middle {
+        margin: .5rem 0 .5rem 0;
+    }
+
+    .internet__starText--telephone {
+        margin-bottom: 1rem;
+    }
+
+
+}

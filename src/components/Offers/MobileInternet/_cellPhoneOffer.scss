@@ -1,0 +1,158 @@
+@media (max-width: 400px) {
+    .cellPhone__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .cellphone__offerContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 2rem 0 2rem 0;
+    }
+
+    .cellphone__optionContainer {
+        width: 90%;
+        display: flex;
+        border-bottom: .0626rem solid black;
+    }
+
+    .cellphone__singleOption {
+        width: 33%;
+        margin: .5rem 0 .5rem 0;
+        font-size: 1.2rem;
+        font-weight: 600;
+
+    }
+
+    .cellphone__singleOption--second {
+        border-left: .0626rem solid black;
+        border-right: .0626rem solid black;
+
+    }
+
+    .cellphone__singleOption--third {
+        border-right: 1px solid black;
+    }
+
+    .cellphone__informations {
+        width: 90%;
+    }
+
+    .cellphone__informations--second {
+        border-top: .0626rem solid black;
+        border-bottom: .0626rem solid black;
+    }
+
+    // // .cellphone__informations--third {
+    //     border-bottom: none;
+    // }
+
+    .cellphone__text {
+        font-size: 1.1rem;
+        text-align: center;
+        margin: .5rem 0 .5rem 0;
+    }
+
+    .cellphone__optionInformation {
+        width: 90%;
+    }
+
+    .optionInformation__text {
+        font-size: .8rem;
+    }
+
+    .optionInformation__text--info {
+        font-weight: 600;
+        margin-top: 1rem;
+    }
+
+    .cellphone__singleOptionInformation {
+        margin: 1rem 0 1rem 0;
+
+    }
+
+}
+
+
+@media (min-width: 400px) {
+    .cellPhone__container {
+        // height: calc(100vh - 17rem);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .cellphone__offerContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 2rem 0 2rem 0;
+    }
+
+    .cellphone__optionContainer {
+        width: 90%;
+        display: flex;
+        border-bottom: .0626rem solid black;
+    }
+
+    .cellphone__singleOption {
+        width: 33%;
+        margin: .5rem 0 .5rem 0;
+        font-size: 1.2rem;
+        font-weight: 600;
+
+    }
+
+    .cellphone__singleOption--second {
+        border-left: .0626rem solid black;
+        border-right: .0626rem solid black;
+
+    }
+
+    // .cellphone__singleOption--third {
+    //     border-right: 1px solid black;
+    // }
+
+    .cellphone__informations {
+        width: 90%;
+    }
+
+    .cellphone__informations--second {
+        border-top: .0626rem solid black;
+        border-bottom: .0626rem solid black;
+    }
+
+    .cellphone__text {
+        font-size: 1.1rem;
+        text-align: center;
+        margin: .5rem 0 .5rem 0;
+    }
+
+    .cellphone__optionInformation {
+        width: 90%;
+    }
+
+    .optionInformation__text {
+        font-size: .8rem;
+    }
+
+    .optionInformation__text--info {
+        font-weight: 600;
+        margin-top: 1rem;
+    }
+
+    .cellphone__singleOptionInformation {
+        margin: 1rem 0 1rem 0;
+
+    }
+}

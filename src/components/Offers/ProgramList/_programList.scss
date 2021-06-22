@@ -1,0 +1,42 @@
+@media (max-width: 400px) {
+
+    .programlist__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .programList__style {
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin: 1rem;
+        text-align: center;
+    }
+
+    .programList__image {
+        width: 80%;
+        object-position: center;
+    }
+}
+
+@media (min-width: 400px) {
+    .programlist__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .programList__style {
+        font-size: 1.7rem;
+        font-weight: 600;
+        margin: 1rem;
+        text-align: center;
+    }
+
+    .programList__image {
+        object-position: center;
+        width: 80%;
+    }
+}

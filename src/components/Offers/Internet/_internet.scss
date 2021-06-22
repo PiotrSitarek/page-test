@@ -1,0 +1,182 @@
+@media (max-width: 400px) {
+    .internet__container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 1rem;
+        box-sizing: content-box;
+    }
+
+    .internet__text_link {
+        text-align: center;
+        text-decoration: none;
+        color: black;
+
+    }
+
+    .offerInfo__style {
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin: 1rem;
+        text-align: center;
+    }
+
+    .internet__text {
+        text-align: center;
+        margin: .5rem 0 .5rem 0;
+    }
+
+    .internet__starText {
+        font-size: .7rem;
+        padding: 1rem 1rem 1rem 1rem;
+    }
+
+    .internet__contractTimeOption {
+        margin: 2.5rem 0 0 0;
+
+    }
+
+    .internet__wifiImage {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .internet__contractTime {
+
+        width: 80%;
+        text-align: center;
+    }
+
+    .internet__speedOptions {
+        width: 80%;
+        display: flex;
+    }
+
+    .internet__singleOption {
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+
+    .internet__singleOption--middle {
+        border-left: .0626rem solid black;
+        border-right: .0626rem solid black;
+    }
+
+    .internet__singleOption--first {
+        border-right: .0626rem solid black;
+    }
+
+
+    .internet__promotionTime {
+        width: 80%;
+        border-top: .0626rem solid black;
+    }
+
+    .internet__discount {
+        width: 80%;
+        border-top: .0626rem solid black;
+    }
+
+    .internet__priceContain {
+        width: 80%;
+        border-top: .0626rem solid black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (min-width: 400px) {
+    .internet__container {
+        max-width: 100%;
+        // height: calc(100vh - 17rem);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 1rem;
+
+    }
+
+    .offerInfo__style {
+        font-size: 1.7rem;
+        font-weight: 600;
+        margin: 1rem;
+    }
+
+    .internet__text {
+        text-align: center;
+        margin: .5rem 0 .5rem 0;
+        font-size: 1.1rem;
+    }
+
+    .internet__starText {
+        font-size: .7rem;
+        padding: 1rem 1rem 1rem 1rem;
+        text-align: center;
+    }
+
+    .internet__contractTimeOption {
+        margin: 2.5rem 0 0 0;
+    }
+
+    .internet__wifiImage {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .internet__contractTime {
+
+        width: 80%;
+        text-align: center;
+
+    }
+
+    .internet__speedOptions {
+        width: 80%;
+        display: flex;
+    }
+
+    .internet__speedOptions .internet__singleOption {
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+
+    .internet__singleOption--first {
+        border-right: .0626rem solid black;
+    }
+
+    .internet__singleOption--middle {
+        border-left: .0626rem solid black;
+        border-right: .0626rem solid black;
+    }
+
+    .internet__promotionTime {
+        width: 80%;
+        border-top: .0626rem solid black;
+    }
+
+    .internet__discount {
+        width: 80%;
+        border-top: .0626rem solid black;
+    }
+
+    .internet__priceContain {
+        width: 80%;
+        border-top: .0626rem solid black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .internet__text_link {
+        text-align: center;
+        text-decoration: none;
+        color: black;
+
+    }
+}
